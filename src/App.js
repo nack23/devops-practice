@@ -1,8 +1,8 @@
 import React from "react";
 import HeaderBanner from "./components/HeaderBanner";
 import Navbar from "./components/Navbar";
+
 import Home from "./components/Home";
-import Home1 from "./components/Home1";
 
 import "./App.css"; 
 import Research from "./components/Research";
@@ -16,8 +16,8 @@ function App() {
     <div>
       <HeaderBanner />
       <Navbar />
-      <Home1 />
       <Home />
+      
       
       
       <Count />
